@@ -1,1 +1,1 @@
-# My-Album
+# Album

@@ -1,0 +1,39 @@
+.overlay--tien {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  animation: fadeIn linear 0.2s;
+}
+
+.overlay-member--tien {
+  background-color: #fff;
+  position: fixed;
+  margin: 0 auto;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 80%;
+  height: 600px;
+  border-radius: 10px;
+  margin: auto auto;
+  display: none;
+  z-index: 11;
+  animation: topToBottom linear 0.3s;
+}
+
+.overlay-checkbox--tien:checked ~ .overlay--tien {
+  display: block;
+}
+.overlay-checkbox--tien:checked ~ .overlay-member--tien{
+  display: block;
+}
