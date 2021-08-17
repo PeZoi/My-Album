@@ -1,3 +1,7 @@
+:root {
+  --overlay-width: 100%;
+  --overlay-height: 600px;
+}
 * {
   box-sizing: border-box;
 }
@@ -21,4 +25,98 @@ body {
   padding: 100px 0 50px;
   border-bottom: 2px solid #262626;
   margin: 0 300px 50px;
+}
+
+.overlay-member {
+}
+
+.overlay-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.overlay-close:hover {
+  opacity: 0.5;
+}
+
+.overlay-close-icon {
+  font-size: 31px;
+  color: black;
+  padding: 5px;
+}
+
+.overlay-member-container {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+.overlay-member-img{
+  margin: 0 50px;
+}
+
+.overlay-member-img img {
+  border-radius: 10px;
+}
+
+.overlay-member-info{
+  height: 100%;
+  min-width: 50%;
+  padding-top: 75px;
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.member-phone {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.contact-item {
+  display: inline-block;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.contact-item:hover .contact-facebook {
+  display: block;
+}
+
+.contact-icon {
+  color: #097ceb
+}
+
+.contact-icon:hover {
+  opacity: 0.7;
+}
+.contact-facebook {
+  display: none;
+  animation: fadeIn linear 0.5s;
+}
+
+.contact-facebook-show{
+  position: relative;
+}
+
+.contact-facebook-show img {
+  position: absolute;
+  top: -7px;
+  left: -43px;
+  width: 110px;
+  height: 110px;
+  cursor: default;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact-item-img {
+  width: 21px;
+  height: 20px;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: black;
 }

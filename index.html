@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/grid.css">
   <link rel="stylesheet" href="./assets/css/reset.css">
-  <link rel="stylesheet" href="./assets/css/main.css">
   <link rel="stylesheet" href="./assets/css/responsive.css">
   <link rel="stylesheet" href="./assets/css/animation.css">
   <link rel="stylesheet" href="./assets/css/style.js">
@@ -25,6 +25,12 @@
   <link rel="stylesheet" href="./assets/css/info/son.css">
   <link rel="stylesheet" href="./assets/css/info/tien.css">
   <link rel="stylesheet" href="./assets/css/info/thinh.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="animate.css">
+  <script src="wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <title>My Album</title>
@@ -73,12 +79,12 @@
         <div class="grid wide">
           <div class="row">
             <div class="intro-img-list">
-              <img src="./assets/img/Intro.jpg" alt="" class="intro-img-item">
+              <img src="./assets/img/Intro.jpg" alt="" class="intro-img-item wow fadeInLeft">
               <span class="intro-img--zoom">
                 <img src="./assets/img/pts.jpg" alt="" class="intro-img-item--zoom">
               </span>
             </div>
-            <div class="intro-info">
+            <div class="intro-info wow fadeInRight">
               <h1 class="intro-info-title">AE</h1>
               <p class="intro-info-content">Cũng đã hết cấp 3, anh em ta cũng đã trải qua rất nhiều vui buồn , khó khăn cùng nhau.
               Tuy có lúc gây gỗ hay có chút không hài lòng nhưng chúng ta đã cùng nhau vượt qua nó
@@ -98,70 +104,70 @@
         <div class="member-list">
           <div class="grid wide">
             <div class="row">
-              <div class="col l-2-4 m-6 c-6">
-                <label for="overlay-checkbox" class="member-img" style="background-image: url(./assets/img/cuong.jpg);">
-                  <label for="overlay-checkbox" class="member-name">
+              <div class="col l-2-4 m-6 c-6 wow fadeInLeft " data-wow-delay="0.9s">
+                <label for="overlay-checkbox--cuong" class="member-img" style="background-image: url(./assets/img/cuong.jpg);">
+                  <label for="overlay-checkbox--cuong" class="member-name">
                     <h1>Trần Thanh Kim Cương</h1>
                   </label>
                 </label>
               </div>
-              <div class="col l-2-4 m-6 c-6">
+              <div class="col l-2-4 m-6 c-6 wow fadeInLeft" data-wow-delay="0.7s">
                 <label for="overlay-checkbox--bao" class="member-img" style="background-image: url(./assets/img/bao.jpg);">
                   <label for="overlay-checkbox--bao" class="member-name">
                     <h1>Phạm Quốc Bảo</h1>
                   </label>
                 </label>
               </div>
-              <div class="col l-2-4 m-6 c-6">
+              <div class="col l-2-4 m-6 c-6 wow fadeInLeft" data-wow-delay="0.5s">
                 <label for="overlay-checkbox--dong" class="member-img" style="background-image: url(./assets/img/dong.jpg);">
                   <label for="overlay-checkbox--dong" class="member-name">
                     <h1>Phạm Ngọc Viễn Đông</h1>
                   </label>
                 </label>
               </div>
-              <div class="col l-2-4 m-6 c-6">
+              <div class="col l-2-4 m-6 c-6 wow fadeInLeft" data-wow-delay="0.3s">
                 <label for="overlay-checkbox--hai" class="member-img background-top" style="background-image: url(./assets/img/hai.jpg);">
                   <label for="overlay-checkbox--hai" class="member-name">
                     <h1>Phạm Bá Hải</h1>
                   </label>
                 </label>
               </div>
-              <div class="col l-2-4 m-6 c-6">
+              <div class="col l-2-4 m-6 c-6 wow fadeInLeft" data-wow-delay="0.1s">
                 <label for="overlay-checkbox--huy" class="member-img background-top" style="background-image: url(./assets/img/huy.jpg);">
                   <label for="overlay-checkbox--huy" class="member-name">
                     <h1>Trần Đức Huy</h1>
                   </label>
                 </label>
               </div>
-              <div class="col l-2-4 m-6 c-6">
+              <div class="col l-2-4 m-6 c-6 wow fadeInRight" data-wow-delay="1.1s">
                 <label for="overlay-checkbox--phuc" class="member-img background-top" style="background-image: url(./assets/img/phuc.jpg);">
                   <label for="overlay-checkbox--phuc" class="member-name">
                     <h1>Vũ hoàng phúc</h1>
                   </label>
                 </label>
               </div>
-              <div class="col l-2-4 m-6 c-6">
+              <div class="col l-2-4 m-6 c-6 wow fadeInRight" data-wow-delay="1.3s">
                 <label for="overlay-checkbox--khanh" class="member-img" style="background-image: url(./assets/img/khanh.jpg);">
                   <label for="overlay-checkbox--khanh" class="member-name">
                     <h1>Đinh duy khánh</h1>
                   </label>
                 </label>
               </div>
-              <div class="col l-2-4 m-6 c-6">
+              <div class="col l-2-4 m-6 c-6 wow fadeInRight" data-wow-delay="1.5s">
                 <label for="overlay-checkbox--son" class="member-img background-bottom" style="background-image: url(./assets/img/son.jpg);">
                   <label for="overlay-checkbox--son" class="member-name">
                     <h1>Phạm Văn Sơn</h1>
                   </label>
                 </label>
               </div>
-              <div class="col l-2-4 m-6 c-6">
+              <div class="col l-2-4 m-6 c-6 wow fadeInRight" data-wow-delay="1.7s">
                 <label for="overlay-checkbox--tien" class="member-img" style="background-image: url(./assets/img/tien.jpg);">
                   <label for="overlay-checkbox--tien" class="member-name">
                     <h1>Nguyễn Quách Đức Tiến</h1>
                   </label>
                 </label>
               </div>
-              <div class="col l-2-4 m-6 c-6">
+              <div class="col l-2-4 m-6 c-6 wow fadeInRight" data-wow-delay="1.9s">
                 <label for="overlay-checkbox--thinh" class="member-img background-top" style="background-image: url(./assets/img/thinh.jpg);">
                   <label for="overlay-checkbox--thinh" class="member-name">
                     <h1>Nguyễn Đức thịnh</h1>
@@ -175,49 +181,116 @@
   </div>
 
 
-  <input type="checkbox" hidden id="overlay-checkbox" class="overlay-checkbox">
-  <label for="overlay-checkbox" class="overlay"></label>
-  <div class="overlay-member">
-    <div class="member-info">
-      cuong
-    </div>
+  <input type="checkbox" hidden id="overlay-checkbox--cuong" class="overlay-checkbox--cuong">
+  <label for="overlay-checkbox--cuong" class="overlay--cuong"></label>
+  <div class="overlay-member--cuong overlay-member ">
+    <label for="overlay-checkbox--cuong" class="overlay-close">
+      <ion-icon class="overlay-close-icon" name="close-outline"></ion-icon>
+    </label>
   </div>
 
   <input type="checkbox" hidden id="overlay-checkbox--bao" class="overlay-checkbox--bao">
   <label for="overlay-checkbox--bao" class="overlay--bao"></label>
-  <div class="overlay-member--bao" ></div>
+  <div class="overlay-member--bao overlay-member"  >
+    <label for="overlay-checkbox--bao" class="overlay-close">
+      <ion-icon class="overlay-close-icon" name="close-outline"></ion-icon>
+    </label>
+  </div>
 
   <input type="checkbox" hidden id="overlay-checkbox--dong" class="overlay-checkbox--dong">
   <label for="overlay-checkbox--dong" class="overlay--dong"></label>
-  <div class="overlay-member--dong"></div>
+  <div class="overlay-member--dong overlay-member" >
+    <label for="overlay-checkbox--dong" class="overlay-close">
+      <ion-icon class="overlay-close-icon" name="close-outline"></ion-icon>
+    </label>
+  </div>
 
   <input type="checkbox" hidden id="overlay-checkbox--hai" class="overlay-checkbox--hai">
   <label for="overlay-checkbox--hai" class="overlay--hai"></label>
-  <div class="overlay-member--hai"></div>
+  <div class="overlay-member--hai overlay-member">
+    <label for="overlay-checkbox--hai" class="overlay-close">
+      <ion-icon class="overlay-close-icon" name="close-outline"></ion-icon>
+    </label>
+  </div>
 
   <input type="checkbox" hidden id="overlay-checkbox--huy" class="overlay-checkbox--huy">
   <label for="overlay-checkbox--huy" class="overlay--huy"></label>
-  <div class="overlay-member--huy"></div>
+  <div class="overlay-member--huy overlay-member">
+    <label for="overlay-checkbox--huy" class="overlay-close">
+      <ion-icon class="overlay-close-icon" name="close-outline"></ion-icon>
+    </label>
+  </div>
 
   <input type="checkbox" hidden id="overlay-checkbox--phuc" class="overlay-checkbox--phuc">
   <label for="overlay-checkbox--phuc" class="overlay--phuc"></label>
-  <div class="overlay-member--phuc"></div>
+  <div class="overlay-member--phuc overlay-member" >
+    <label for="overlay-checkbox--phuc" class="overlay-close">
+      <ion-icon class="overlay-close-icon" name="close-outline"></ion-icon>
+    </label>
+  </div>
 
   <input type="checkbox" hidden id="overlay-checkbox--khanh" class="overlay-checkbox--khanh">
   <label for="overlay-checkbox--khanh" class="overlay--khanh"></label>
-  <div class="overlay-member--khanh"></div>
+  <div class="overlay-member--khanh overlay-member ">
+    <label for="overlay-checkbox--khanh" class="overlay-close">
+      <ion-icon class="overlay-close-icon" name="close-outline"></ion-icon>
+    </label>
+  </div>
 
   <input type="checkbox" hidden id="overlay-checkbox--son" class="overlay-checkbox--son">
   <label for="overlay-checkbox--son" class="overlay--son"></label>
-  <div class="overlay-member--son"></div>
+  <div class="overlay-member--son overlay-member">
+    <label for="overlay-checkbox--son" class="overlay-close">
+      <ion-icon class="overlay-close-icon" name="close-outline"></ion-icon>
+    </label>
+  </div>
 
   <input type="checkbox" hidden id="overlay-checkbox--tien" class="overlay-checkbox--tien">
   <label for="overlay-checkbox--tien" class="overlay--tien"></label>
-  <div class="overlay-member--tien"></div>
+  <div class="overlay-member--tien overlay-member" >
+    <label for="overlay-checkbox--tien" class="overlay-close">
+      <ion-icon class="overlay-close-icon" name="close-outline"></ion-icon>
+    </label>
+  </div>
 
   <input type="checkbox" hidden id="overlay-checkbox--thinh" class="overlay-checkbox--thinh">
   <label for="overlay-checkbox--thinh" class="overlay--thinh"></label>
-  <div class="overlay-member--thinh"></div>
+  <div class="overlay-member--thinh overlay-member ">
+    <label for="overlay-checkbox--thinh" class="overlay-close">
+      <ion-icon class="overlay-close-icon" name="close-outline"></ion-icon>
+    </label>
+    <div class="overlay-member-container">
+      <div class="overlay-member-img">
+        <img src="./assets/img/avatar-thinh.jpg" alt="">
+      </div>
+      <div class="overlay-member-info">
+        <p>• Họ và tên: Nguyễn Đức Thịnh</p>
+        <p>• Tuổi: 18</p>
+        <p>• Ngày sinh: 18/07/2003</p>
+        <p>• Nơi sinh: Đồng Nai</p>
+        <p>• Cung hoàng đạo: Cự Giải</p>
+        <p>• Sở thích: Xem phim , nghe nhạc ,ăn uống, chơi game , bi-a,...</p>
+        <p>• Ưu điểm: Tốt bụng, quan tâm đến bạn bè, sẵn sàng cho bạn mượn tiền mà không cần trả,...</p>
+        <p>• Nhược điểm: Hay khoe của, xàm lìn,...</p>
+        <p>• Ước mơ: Chủ cyber lớn nhất Đồng Nai</p>
+        <p>• Quan hệ: Hẹn hò</p>
+        <p>• Telephone: <a href="tel:070 3754477" class="member-phone">070 3754477</a></p>
+        <ul class="overlay-member-contact">
+          <li class="contact-item">
+            <a href="https://www.facebook.com/profile.php?id=100032337155333" class="contact-link"><ion-icon class="contact-icon" name="logo-facebook"></ion-icon></a>
+            <ul class="contact-facebook">
+              <li class="contact-facebook-show">
+                <img src="./assets/img/fb-thinh.png" alt="">
+              </li>
+            </ul>
+          </li>
+          <li class="contact-item">
+            <a href=""><img class="contact-item-img" src="https://the7.vn/wp-content/uploads/2019/09/instagram-png-instagram-png-logo-1455.png" alt=""></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
 </body>
 

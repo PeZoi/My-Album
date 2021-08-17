@@ -1,4 +1,4 @@
-.overlay {
+.overlay--cuong {
   background-color: rgba(0, 0, 0, 0.4);
   position: fixed;
   top: 0;
@@ -15,7 +15,7 @@
   animation: fadeIn linear 0.2s;
 }
 
-.overlay-member {
+.overlay-member--cuong {
   background-color: #fff;
   position: fixed;
   margin: 0 auto;
@@ -31,10 +31,10 @@
   animation: topToBottom linear 0.3s;
 }
 
-.overlay-checkbox:checked ~ .overlay {
+.overlay-checkbox--cuong:checked ~ .overlay--cuong {
   display: block;
 }
 
-.overlay-checkbox:checked ~ .overlay-member{
+.overlay-checkbox--cuong:checked ~ .overlay-member--cuong{
   display: block;
 }

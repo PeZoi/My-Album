@@ -17,3 +17,14 @@
     transform: translateY(-50%);
   }
 }
+
+@keyframes rightToLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
