@@ -31,6 +31,10 @@
   animation: topToBottom linear 0.3s;
 }
 
+.overlay-member-info.member-info--phuc {
+  padding-top: 95px;
+}
+
 .overlay-checkbox--phuc:checked ~ .overlay--phuc {
   display: block;
 }

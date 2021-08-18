@@ -66,9 +66,10 @@ body {
 .overlay-member-info{
   height: 100%;
   min-width: 50%;
-  padding-top: 75px;
+  padding: 75px 16px 0;
   font-size: 22px;
   line-height: 1.4;
+  width: 100%;
 }
 
 .member-phone {
