@@ -27,6 +27,7 @@
 }
 .header-menu-item{
   line-height: 60px;
+  position: relative;
 }
 .header-menu-link{
   display: block;
@@ -35,9 +36,56 @@
   padding: 0 32px;
   text-transform: uppercase;
   color: black;
+  transition: all linear 0.1s;
 }
 
-.header-menu-link:hover {
+.header-menu-list > .header-menu-item:hover .header-menu-link{
   color: #fff;
-  background: #000;
+  background: rgb(184, 184, 184);
+  font-size: 18px;
+}
+.header-menu-item:hover .sub-menu {
+  display: block;
+}
+.sub-menu {
+  position: fixed;
+  min-height: 150px;
+  background-color: #fff;
+  top: 60;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: none;
+  animation: fadeIn linear 0.3s;
+}
+.sub-menu-item {
+  list-style: none;
+  min-height: 32px;
+}
+.sub-menu-link {
+  text-decoration: none;
+  font-size: 14px;
+  display: flex;
+  color: black;
+  text-transform: uppercase;
+  padding: 0  29px 0 16px;
+  height: 45px;
+  line-height: 45px;
+  align-items: center;
+}
+.sub-menu-link img {
+  width: 30px;
+  height: 30px;
+  line-height: 45px;
+}
+.sub-menu-link span {
+  margin-right: 18px;
+}
+.sub-menu-link .sub-menu-school {
+  margin-right: 33px;
+}
+.sub-menu-link .sub-menu-beer {
+  margin-right: 22px;
+}
+.sub-menu-link:hover {
+  color: #fff;
+  background: rgb(184, 184, 184);
 }
