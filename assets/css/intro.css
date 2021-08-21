@@ -57,6 +57,18 @@
   margin-top: 1px;
 }
 
+.info-content-by-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
 .info-content-by {
-  text-align: right;
+  margin-left: auto;
+  display: inline-block;
+  cursor: pointer;
+  transition: all linear 0.2s;
+}
+.info-content-by:hover {
+  opacity: 0.8;
 }
