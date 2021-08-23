@@ -8,6 +8,7 @@
   top: 0;
   z-index: 5;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header-logo{
@@ -24,25 +25,41 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .header-menu-item{
   line-height: 60px;
   position: relative;
+  margin: 0 32px;
+  display: inline;
 }
 .header-menu-link{
   display: block;
   text-decoration: none;
-  font-size: 16px;
-  padding: 0 32px;
+  font-size: 18px;
+  /* padding: 0 32px; */
   text-transform: uppercase;
   color: black;
-  transition: all linear 0.1s;
+  transition: all linear 0.2s;
+  font-weight: bold;
 }
 
+.header-menu-item::after {
+  content: '';
+  position: absolute;
+  display: block;
+  bottom: 10px;
+  transform: scaleX(0);
+  border-bottom: 3px solid var(--primary-color);
+  border-radius: 10px;
+  width: 100%;
+  transition: all linear 0.2s;
+}
+.header-menu-list > .header-menu-item:hover::after {
+  transform: scale(1);
+}
 .header-menu-list > .header-menu-item:hover .header-menu-link{
-  color: #fff;
-  background: rgb(184, 184, 184);
-  font-size: 18px;
+  color: var(--primary-color);
 }
 .header-menu-item:hover .sub-menu {
   display: block;
@@ -59,6 +76,7 @@
 .sub-menu-item {
   list-style: none;
   min-height: 32px;
+  position: relative;
 }
 .sub-menu-link {
   text-decoration: none;
@@ -70,6 +88,8 @@
   height: 45px;
   line-height: 45px;
   align-items: center;
+  font-weight: bold;
+  /* position: relative; */
 }
 .sub-menu-link img {
   width: 30px;
@@ -85,7 +105,19 @@
 .sub-menu-link .sub-menu-beer {
   margin-right: 22px;
 }
+.sub-menu-item::after {
+  content: '';
+  display: block;
+  bottom: 0px;
+  transform: scaleX(0);
+  border-bottom: 3px solid var(--primary-color);
+  border-radius: 10px;
+  width: 100%;
+  transition: all linear 0.2s;
+}
+.sub-menu-item:hover::after {
+  transform: scale(1);
+}
 .sub-menu-link:hover {
-  color: #fff;
-  background: rgb(184, 184, 184);
+  color: var(--primary-color)
 }

@@ -28,6 +28,7 @@
   background-color: black;
   border-radius: 20px;
   color: #fff;
+  transition: all linear 0.2s;
 }
 
 .container-link:hover {

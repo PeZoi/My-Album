@@ -31,21 +31,20 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="./assets/css/loader.css">
-    <script src="./assets/css/loader.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./assets/js/loader.js"></script>
     <script src="wow.min.js"></script>
     <script>
       new WOW().init();
     </script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <title>My Album</title>
   </head>
 
-  <body>
-    <div id='af-preloader'>
-      <div class='af-preloader-wrap'>
-        <div class='af-sp af-sp-wave'></div>
-      </div>
+  <body class="preloading">
+    <div class="load">
+      <img src="./assets/img/preloader.gif" alt="">
     </div>
 
     <div class="main">
@@ -136,7 +135,17 @@
         </div>
 
         <div class="member" id="member">
-          <h1 class="title">Thành Viên</h1>
+          <ul class="member-title-list">
+            <li class="member-title-item">T</li>
+            <li class="member-title-item">H</li>
+            <li class="member-title-item">À</li>
+            <li class="member-title-item">N</li>
+            <li class="member-title-item">H</li>
+            <li class="member-title-item">V</li>
+            <li class="member-title-item">I</li>
+            <li class="member-title-item">Ê</li>
+            <li class="member-title-item">N</li>
+          </ul>
           <div class="member-list">
             <div class="grid wide">
               <div class="row">
@@ -145,6 +154,7 @@
                     style="background-image: url(./assets/img/cuong.jpg);">
                     <label for="overlay-checkbox--cuong" class="member-name">
                       <h1>Trần Thanh Kim Cương</h1>
+                      <img src="https://littleeagles.edu.vn/wp-content/uploads/2019/07/icon-05-1-400x400.png" alt="">
                     </label>
                   </label>
                 </div>
@@ -153,6 +163,7 @@
                     style="background-image: url(./assets/img/bao.jpg);">
                     <label for="overlay-checkbox--bao" class="member-name">
                       <h1>Phạm Quốc Bảo</h1>
+                      <img src="https://littleeagles.edu.vn/wp-content/uploads/2019/07/icon-05-1-400x400.png" alt="">
                     </label>
                   </label>
                 </div>
@@ -161,6 +172,7 @@
                     style="background-image: url(./assets/img/dong.jpg);">
                     <label for="overlay-checkbox--dong" class="member-name">
                       <h1>Phạm Ngọc Viễn Đông</h1>
+                      <img src="https://littleeagles.edu.vn/wp-content/uploads/2019/07/icon-05-1-400x400.png" alt="">
                     </label>
                   </label>
                 </div>
@@ -169,6 +181,7 @@
                     style="background-image: url(./assets/img/hai.jpg);">
                     <label for="overlay-checkbox--hai" class="member-name">
                       <h1>Phạm Bá Hải</h1>
+                      <img src="https://littleeagles.edu.vn/wp-content/uploads/2019/07/icon-05-1-400x400.png" alt="">
                     </label>
                   </label>
                 </div>
@@ -177,6 +190,7 @@
                     style="background-image: url(./assets/img/huy.jpg);">
                     <label for="overlay-checkbox--huy" class="member-name">
                       <h1>Trần Đức Huy</h1>
+                      <img src="https://littleeagles.edu.vn/wp-content/uploads/2019/07/icon-05-1-400x400.png" alt="">
                     </label>
                   </label>
                 </div>
@@ -185,6 +199,7 @@
                     style="background-image: url(./assets/img/phuc.jpg);">
                     <label for="overlay-checkbox--phuc" class="member-name">
                       <h1>Vũ hoàng phúc</h1>
+                      <img src="https://littleeagles.edu.vn/wp-content/uploads/2019/07/icon-05-1-400x400.png" alt="">
                     </label>
                   </label>
                 </div>
@@ -193,6 +208,7 @@
                     style="background-image: url(./assets/img/khanh.jpg);">
                     <label for="overlay-checkbox--khanh" class="member-name">
                       <h1>Đinh duy khánh</h1>
+                      <img src="https://littleeagles.edu.vn/wp-content/uploads/2019/07/icon-05-1-400x400.png" alt="">
                     </label>
                   </label>
                 </div>
@@ -201,6 +217,7 @@
                     style="background-image: url(./assets/img/son.jpg);">
                     <label for="overlay-checkbox--son" class="member-name">
                       <h1>Phạm Văn Sơn</h1>
+                      <img src="https://littleeagles.edu.vn/wp-content/uploads/2019/07/icon-05-1-400x400.png" alt="">
                     </label>
                   </label>
                 </div>
@@ -209,6 +226,7 @@
                     style="background-image: url(./assets/img/tien.jpg);">
                     <label for="overlay-checkbox--tien" class="member-name">
                       <h1>Nguyễn Quách Đức Tiến</h1>
+                      <img src="https://littleeagles.edu.vn/wp-content/uploads/2019/07/icon-05-1-400x400.png" alt="">
                     </label>
                   </label>
                 </div>
@@ -217,6 +235,7 @@
                     style="background-image: url(./assets/img/thinh.jpg);">
                     <label for="overlay-checkbox--thinh" class="member-name">
                       <h1>Nguyễn Đức thịnh</h1>
+                      <img src="https://littleeagles.edu.vn/wp-content/uploads/2019/07/icon-05-1-400x400.png" alt="">
                     </label>
                   </label>
                 </div>
@@ -226,7 +245,13 @@
         </div>
 
         <div class="album" id="album">
-          <h1 class="title" style="color: #fff; border-bottom: 2px solid #ccc;">Album</h1>
+          <ul class="member-title-list">
+            <li class="member-title-item">A</li>
+            <li class="member-title-item">L</li>
+            <li class="member-title-item">B</li>
+            <li class="member-title-item">U</li>
+            <li class="member-title-item">M</li>
+          </ul>
           <div class="album-container">
             <div class="album-container-item">
               <h1 class="album-container-title" id="school"><span>Đi học</span> <img
