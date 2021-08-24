@@ -1,5 +1,6 @@
 .member {
   padding: 0 8px 100px;
+  border-bottom: 2px solid #e1e1e1;
 }
 
 .member-title-list {
@@ -71,6 +72,7 @@
 }
 
 .member-name h1 {
+  font-family: 'Playball', cursive;
   text-align: center;
   padding: 32px 0px 16px;
   margin: 0 8px;
@@ -79,6 +81,7 @@
   text-transform: uppercase;
   font-weight: bold;
   line-height: 1.5;
+  letter-spacing: 5px;
 }
 
 .member-name img {
