@@ -4,6 +4,9 @@
   --primary-color: #ff8d00;
   --topic-color: #ffc86e;
 }
+.mb-24 {
+  margin-bottom: 24px;
+}
 .text-align {
   text-align: center;
 }
