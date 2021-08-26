@@ -49,8 +49,13 @@
   overflow: hidden;
   margin-bottom: 24px;
   display: block;
-  box-shadow: 2px 1px 8px;
+  box-shadow: 0px 0px 8px;
 }
+
+.member-img.dark {
+  box-shadow: 0px 0px 8px rgb(255, 255, 255);
+}
+
 .background-top {
   background-position: top;
 }

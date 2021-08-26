@@ -3,6 +3,8 @@
   --overlay-height: 600px;
   --primary-color: #ff8d00;
   --topic-color: #ffc86e;
+  --transition-move: cubic-bezier(.25, -0.59, 0.82, 1.66);
+  --dark-color: #111;
 }
 .mb-24 {
   margin-bottom: 24px;
@@ -19,6 +21,11 @@ html {
 body {
   font-family: Verdana,sans-serif;
   scroll-behavior: smooth;
+  background-color: #fff;
+  transition: all var(--transition-move) 0.4s 0.1s;
+}
+body.dark {
+  background-color: var(--dark-color);
 }
 .main{
   overflow: hidden;
