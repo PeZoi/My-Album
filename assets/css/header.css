@@ -185,3 +185,42 @@
 .switch-toggle:checked::after {
   left: 43px;
 }
+
+.switch-toggle-icon--sun {
+  position: absolute;
+  top: 11px;
+  right: 86px;
+  width: 34px;
+  height: 34px;
+  object-fit: cover;
+  /* box-shadow: 0 0 10px; */
+  border-radius: 50%;
+  cursor: pointer;
+}
+.icon-sun {
+  display: none;
+}
+
+.icon-sun.active {
+  display: block;
+  animation: fadeIn var(--transition-move) 1.4s;
+}
+
+.switch-toggle-icon--moon {
+  position: absolute;
+  top: 10px;
+  right: 44px;
+  width: 37px;
+  height: 37px;
+  object-fit: cover;
+  /* box-shadow: 0 0 10px; */
+  border-radius: 50%;
+  cursor: pointer;
+}
+.icon-moon {
+  display: none;
+}
+.icon-moon.active {
+  animation: fadeIn var(--transition-move) 1.4s;
+  display: block;
+}

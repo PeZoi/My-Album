@@ -82,3 +82,11 @@ checkbox_toggle.addEventListener('change', function () {
   document.querySelectorAll('.member-img')[9].classList.toggle('dark')
 })
 
+//Icon Switch Sun || Moon
+checkbox_toggle.addEventListener('change', function () {
+  document.querySelector('.icon-sun').classList.toggle('active')
+})
+checkbox_toggle.addEventListener('change', function () {
+  document.querySelector('.icon-moon').classList.toggle('active')
+})
+
