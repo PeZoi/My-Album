@@ -16,7 +16,6 @@
       rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/css/animation.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/container.css">
@@ -34,6 +33,7 @@
     <link rel="stylesheet" href="./assets/css/info/tien.css">
     <link rel="stylesheet" href="./assets/css/info/thinh.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="./assets/css/loader.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
@@ -47,57 +47,59 @@
 
     <div class="main">
       <header class="header">
-        <div class="grid">
-          <div class="row">
-            <div class="header-logo">
-              <a href="" class="header-logo-link">
-                <img src="./assets/img/Logo.png" alt="" class="header-logo-img">
-              </a>
-            </div>
+        <div class="header-logo">
+          <a href="" class="header-logo-link">
+            <img src="./assets/img/Icon/logo-light.png" alt="" class="header-logo-img active">
+            <img src="./assets/img/Icon/logo-dark.png" alt="" class="header-logo-img">
+          </a>
+        </div>
 
-            <div class="header-menu">
-              <ul class="header-menu-list">
-                <li class="header-menu-item">
-                  <a href="" class="header-menu-link">Trang chủ</a>
-                </li>
-                <li class="header-menu-item">
-                  <a href="#intro" class="header-menu-link">Giới Thiệu</a>
-                </li>
-                <li class="header-menu-item">
-                  <a href="#member" class="header-menu-link">Thành viên</a>
-                </li>
-                <li class="header-menu-item">
-                  <a href="#album" class="header-menu-link">Album</a>
+        <div class="header-menu">
+          <ul class="header-menu-list">
+            <li class="header-menu-item">
+              <a href="" class="header-menu-link">Trang chủ</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#intro" class="header-menu-link">Giới Thiệu</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#member" class="header-menu-link">Thành viên</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#album" class="header-menu-link">Album</a>
 
-                  <ul class="sub-menu">
-                    <li class="sub-menu-item">
-                      <a href="#school" class="sub-menu-link"><span class="sub-menu-school">Đi học</span> <img
-                          src="./assets/img/Icon/icon-school.png" alt=""></a>
-                    </li>
-                    <li class="sub-menu-item">
-                      <a href="#" class="sub-menu-link"><span class="sub-menu-soccer">Đá bóng</span> <img
-                          src="./assets/img/Icon/icon-soccer.png" alt=""></a>
-                    </li>
-                    <li class="sub-menu-item">
-                      <a href="#" class="sub-menu-link"><span class="sub-menu-beer">Đi nhậu</span> <img
-                          src="./assets/img/Icon/icon-beer.png" alt=""></a>
-                    </li>
-                    <li class="sub-menu-item">
-                      <a href="#" class="sub-menu-link"><span>Khác</span></a>
-                    </li>
-                  </ul>
+              <ul class="sub-menu">
+                <li class="sub-menu-item">
+                  <a href="#school" class="sub-menu-link"><span class="sub-menu-school">Đi học</span> <img
+                      src="./assets/img/Icon/icon-school.png" alt=""></a>
+                </li>
+                <li class="sub-menu-item">
+                  <a href="#" class="sub-menu-link"><span class="sub-menu-soccer">Đá bóng</span> <img
+                      src="./assets/img/Icon/icon-soccer.png" alt=""></a>
+                </li>
+                <li class="sub-menu-item">
+                  <a href="#" class="sub-menu-link"><span class="sub-menu-beer">Đi nhậu</span> <img
+                      src="./assets/img/Icon/icon-beer.png" alt=""></a>
+                </li>
+                <li class="sub-menu-item">
+                  <a href="#" class="sub-menu-link"><span>Khác</span></a>
                 </li>
               </ul>
-            </div>
-
-            <!-- Switch Light || Dark -->
-            <input type="checkbox" class="switch-toggle" id="light-dark">
-            <label for="light-dark" class="icon-sun active"><img src="./assets/img/Icon/icon-sun1.png"
-                class="switch-toggle-icon--sun"></label>
-            <label for="light-dark" class="icon-moon"><img src="./assets/img/Icon/icon-moon.png"
-                class="switch-toggle-icon--moon"></label>
-          </div>
+            </li>
+          </ul>
         </div>
+        <!-- Navbar Menu -->
+        <nav class="nav-menu">
+          <img src="./assets/img/Icon/icon-menu.png" alt="" class="nav-menu-img active">
+          <img src="./assets/img/Icon/icon-menu-dark.png" alt="" class="nav-menu-img">
+        </nav>
+
+        <!-- Switch Light || Dark -->
+        <input type="checkbox" class="switch-toggle" id="light-dark">
+        <label for="light-dark" class="icon-sun active"><img src="./assets/img/Icon/icon-sun1.png"
+            class="switch-toggle-icon--sun"></label>
+        <label for="light-dark" class="icon-moon"><img src="./assets/img/Icon/icon-moon.png"
+            class="switch-toggle-icon--moon"></label>
       </header>
 
       <div class="body">
@@ -649,7 +651,25 @@
         </div>
       </div>
 
+      <!-- Overlay - Header -->
+      <div class="overlay-nav"></div>
+      <div class="overlay-nav-menu">
+        <img src="./assets/img/Icon/icon-close.png" alt="" class="nav-menu--close active">
+        <img src="./assets/img/Icon/icon-close-dark.png" alt="" class="nav-menu--close">
+        <div class="nav-menu-logo">
+          <img src="./assets/img/Icon/logo-light.png" alt="" class="header-logo-img active nav-logo-item">
+          <img src="./assets/img/Icon/logo-dark.png" alt="" class="header-logo-img nav-logo-item">
+        </div>
+        <ul class="nav-menu-list">
+          <li class="nav-menu-item"><a href="#" class="nav-menu-link">trang chủ</a></li>
+          <li class="nav-menu-item"><a href="#intro" class="nav-menu-link">giới thiệu</a></li>
+          <li class="nav-menu-item"><a href="#member" class="nav-menu-link">thành viên</a></li>
+          <li class="nav-menu-item"><a href="#album" class="nav-menu-link">album</a></li>
+        </ul>
+        <div class="coppyright">© 2021-2022 by PeZoi</div>
+      </div>
 
+      <!-- Overlay - Album -->
       <input type="checkbox" hidden id="overlay-checkbox--cuong" class="overlay-checkbox--cuong">
       <label for="overlay-checkbox--cuong" class="overlay--cuong"></label>
       <div class="overlay-member--cuong overlay-member ">
@@ -988,8 +1008,8 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="./assets/js/loader.js"></script>
     <script src="./assets/js/light-dark.js"></script>
+    <script src="./assets/js/main.js"></script>
     <script src="wow.min.js"></script>
-    <script src="js/wow.min.js"></script>
     <script>
       wow = new WOW(
         {

@@ -90,3 +90,40 @@ checkbox_toggle.addEventListener('change', function () {
   document.querySelector('.icon-moon').classList.toggle('active')
 })
 
+//Switch Logo Primary
+const logoElement = document.querySelectorAll('.header-logo-img')
+for (let i = 0; i < logoElement.length; i++) {
+  checkbox_toggle.addEventListener('change', function () {
+    logoElement[i].classList.toggle('active')
+  })
+}
+
+//Switch Logo Menu
+const logoMenu = document.querySelectorAll('.nav-menu-img')
+for (let i = 0; i < logoMenu.length; i++) {
+  checkbox_toggle.addEventListener('change', function () {
+    logoMenu[i].classList.toggle('active')
+  })
+}
+const logoClose = document.querySelectorAll('.nav-menu--close')
+for (let i = 0; i < logoClose.length; i++) {
+  checkbox_toggle.addEventListener('change', function () {
+    logoClose[i].classList.toggle('active')
+  })
+}
+
+//Background Menu
+const backgroundMenu = document.querySelector('.overlay-nav-menu')
+checkbox_toggle.addEventListener('change', function () {
+  backgroundMenu.classList.toggle('dark')
+})
+const backgroundMenuItem = document.querySelectorAll('.nav-menu-link')
+for (let i = 0; i < backgroundMenuItem.length; i++) {
+  checkbox_toggle.addEventListener('change', function () {
+    backgroundMenuItem[i].style.backgroundImage = 'linear-gradient(to bottom right ,var(--primary-color), rgb(255 166 0 / 40%))'
+  })
+}
+const textCoppyright = document.querySelector('.coppyright')
+checkbox_toggle.addEventListener('change', function () {
+  textCoppyright.style.color = 'white';
+})
