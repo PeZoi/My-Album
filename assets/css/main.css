@@ -33,6 +33,7 @@ body {
   scroll-behavior: smooth;
   background-color: #fff;
   transition: all var(--transition-move) 0.4s 0.1s;
+  scroll-margin-top: 1000px;
 }
 body.dark {
   background-color: var(--dark-color);
@@ -213,7 +214,7 @@ body.dark {
 /* Mobile: Width < 740px */
 @media screen and (max-width: 46.1875em) {
   body {
-    scroll-padding-top: 50px;
+    scroll-padding-top: 100px;
   }
   .overlay-member-img {
     display: none;

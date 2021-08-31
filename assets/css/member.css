@@ -109,8 +109,16 @@
 }
 /* Mobile: Width < 740px */
 @media screen and (max-width: 46.1875em) {
+  .intro,
+  .member,
+  .album {
+    padding-top: 60px;
+  }
+  .album-container-item {
+    padding-top: 50px;
+  }
   .member-title-list {
-    padding: 50px 0 25px ;
+    padding: 0px 0 25px ;
     flex-direction: column;
     align-items: center;
   }
