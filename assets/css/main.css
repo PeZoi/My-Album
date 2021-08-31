@@ -212,6 +212,9 @@ body.dark {
 }
 /* Mobile: Width < 740px */
 @media screen and (max-width: 46.1875em) {
+  body {
+    scroll-padding-top: 50px;
+  }
   .overlay-member-img {
     display: none;
   }

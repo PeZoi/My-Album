@@ -48,7 +48,76 @@
   width:  100%;
   border-radius: 10px;
 }
+.item-khac,
+.item-beer {
+  height: 512px;
+  object-fit: cover;
+}
 
 .album-video {
   border-radius: 10px;
+  height: 512px;
+  object-fit: cover;
+}
+/* Mobile & Tablet  <= 1023px */
+@media screen and (max-width: 63.9375em) {
+  .album-container {
+    width: auto;
+  }
+  .mb-27 {
+    margin-bottom: 27px;
+  }
+}
+/* Mobile: Width < 740px */
+@media screen and (max-width: 46.1875em) {
+  .rps-tablet {
+    margin-bottom: 24px;
+  }
+  .album-video,
+  .album-item {
+    width: 90%!important;
+    height: 400px!important;
+    object-fit: cover;
+    position: relative;
+    left: 5%;
+  }
+  .album-container-item {
+    position: relative;
+  }
+  .album-container-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .rps-title {
+    width: 235px;
+  }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+
+  .album-container-title {
+    margin-left: 57px;
+  }
+  .album-middle {
+    height: 879px;
+  }
+  .rps-tablet {
+    margin-bottom: 24px;
+  }
+  .album-item {
+    height: 600px!important;
+    object-fit: cover;
+  }
+  .album-video {
+    height: 600px!important;
+    object-fit: cover;
+  }
+
+}
+
+/* PC: width >= 1024px */
+@media screen and (min-width: 64em) {
+
 }
