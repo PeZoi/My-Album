@@ -28,3 +28,11 @@ overlayMenu.addEventListener('click', function () {
   overlayNavMenu.style.transform = 'translateX(110%)';
 })
 
+const menuLink = document.querySelectorAll('.nav-menu-link')
+for (let i = 0; i < menuLink.length; i++) {
+  menuLink[i].addEventListener('click', function () {
+    overlayMenu.style.display = 'none';
+    overlayNavMenu.style.transform = 'translateX(110%)';
+  })
+}
+

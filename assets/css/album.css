@@ -9,7 +9,7 @@
   margin: auto;
 }
 .album-container-item{
-
+  padding-top: 100px;
 }
 .album-container-title{
   font-family: 'Tourney', cursive;

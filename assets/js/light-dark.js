@@ -125,5 +125,44 @@ for (let i = 0; i < backgroundMenuItem.length; i++) {
 }
 const textCoppyright = document.querySelector('.coppyright')
 checkbox_toggle.addEventListener('change', function () {
-  textCoppyright.style.color = 'white';
+  textCoppyright.classList.toggle('active')
 })
+
+//Background Overlay Member
+const overlayMember = document.querySelectorAll('.overlay-member')
+for (let i = 0; i < overlayMember.length; i++) {
+  checkbox_toggle.addEventListener('change', function () {
+    overlayMember[i].classList.toggle('dark')
+  })
+}
+
+//Switch Logo Close Overlay Member && Text
+const logoCloseMember = document.querySelectorAll('.overlay-close-icon')
+for (let i = 0; i < logoCloseMember.length; i++) {
+  checkbox_toggle.addEventListener('change', function () {
+    logoCloseMember[i].classList.toggle('active')
+  })
+}
+
+const textMember = document.querySelectorAll('.overlay-member-info')
+for (let i = 0; i < textMember.length; i++) {
+  checkbox_toggle.addEventListener('change', function () {
+    textMember[i].classList.toggle('dark')
+  })
+}
+
+const showImg = document.querySelectorAll('.show-img')
+for (let i = 0; i < showImg.length; i++) {
+  checkbox_toggle.addEventListener('change', function () {
+    showImg[i].classList.toggle('dark')
+  })
+}
+
+//Switch Logo Dark || Light
+const iconMobile = document.querySelectorAll('.icon-mobile')
+  for (let i = 0; i < iconMobile.length; i++) {
+    checkbox_toggle.addEventListener('change', function () {
+      iconMobile[i].classList.toggle('active')
+    })
+  }
+

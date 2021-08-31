@@ -60,7 +60,7 @@
               <a href="" class="header-menu-link">Trang chủ</a>
             </li>
             <li class="header-menu-item">
-              <a href="#intro" class="header-menu-link">Giới Thiệu</a>
+              <a href="#gioithieu" class="header-menu-link">Giới Thiệu</a>
             </li>
             <li class="header-menu-item">
               <a href="#member" class="header-menu-link">Thành viên</a>
@@ -74,15 +74,15 @@
                       src="./assets/img/Icon/icon-school.png" alt=""></a>
                 </li>
                 <li class="sub-menu-item">
-                  <a href="#" class="sub-menu-link"><span class="sub-menu-soccer">Đá bóng</span> <img
+                  <a href="#soccer" class="sub-menu-link"><span class="sub-menu-soccer">Đá bóng</span> <img
                       src="./assets/img/Icon/icon-soccer.png" alt=""></a>
                 </li>
                 <li class="sub-menu-item">
-                  <a href="#" class="sub-menu-link"><span class="sub-menu-beer">Đi nhậu</span> <img
+                  <a href="#beer" class="sub-menu-link"><span class="sub-menu-beer">Đi nhậu</span> <img
                       src="./assets/img/Icon/icon-beer.png" alt=""></a>
                 </li>
                 <li class="sub-menu-item">
-                  <a href="#" class="sub-menu-link"><span>Khác</span></a>
+                  <a href="#khac" class="sub-menu-link"><span>Khác</span></a>
                 </li>
               </ul>
             </li>
@@ -104,30 +104,39 @@
 
       <div class="body">
         <div class="container">
-          <div class="container-info grid">
-            <h1 class="container-title">Our memories</h1>
-            <a href="#intro" class="container-link">Tham gia</a>
+          <div class="container-info">
+            <h1 class="container-title">
+              <span>our</span>
+              <span>memories</span>
+            </h1>
+            <a href="#gioithieu" class="container-link">Tham gia</a>
           </div>
         </div>
 
-        <div class="intro" id="intro">
+        <div class="intro" id="gioithieu">
           <ul class="member-title-list">
-            <li class="member-title-item">G</li>
-            <li class="member-title-item">I</li>
-            <li class="member-title-item">Ớ</li>
-            <li class="member-title-item">I</li>
+
+            <div class="warpper-menu-item">
+              <li class="member-title-item">G</li>
+              <li class="member-title-item">I</li>
+              <li class="member-title-item">Ớ</li>
+              <li class="member-title-item">I</li>
+            </div>
             <li class="space"></li>
-            <li class="member-title-item">T</li>
-            <li class="member-title-item">H</li>
-            <li class="member-title-item">I</li>
-            <li class="member-title-item">Ệ</li>
-            <li class="member-title-item">U</li>
+            <div class="warpper-menu-item">
+              <li class="member-title-item">T</li>
+              <li class="member-title-item">H</li>
+              <li class="member-title-item">I</li>
+              <li class="member-title-item">Ệ</li>
+              <li class="member-title-item">U</li>
+            </div>
+
           </ul>
           <div class="grid wide">
-            <div class="row">
+            <div class="intro-warpper row">
               <div class="intro-img-list ">
-                <img src="./assets/img/Intro.jpg" alt="" class="intro-img-item wow fadeInLeft " data-wow-delay="0.2s"
-                  data-wow-duration="1s">
+                <a href="./assets/img/Intro.jpg" data-fancybox="intro"><img src="./assets/img/Intro.jpg" alt=""
+                    class="intro-img-item wow fadeInLeft " data-wow-delay="0.2s" data-wow-duration="1s"></a>
                 <span class="intro-img--zoom">
                   <img src="./assets/img/pts.jpg" alt="" class="intro-img-item--zoom">
                 </span>
@@ -157,16 +166,20 @@
 
         <div class="member" id="member">
           <ul class="member-title-list">
-            <li class="member-title-item">T</li>
-            <li class="member-title-item">H</li>
-            <li class="member-title-item">À</li>
-            <li class="member-title-item">N</li>
-            <li class="member-title-item">H</li>
+            <div class="warpper-menu-item">
+              <li class="member-title-item">T</li>
+              <li class="member-title-item">H</li>
+              <li class="member-title-item">À</li>
+              <li class="member-title-item">N</li>
+              <li class="member-title-item">H</li>
+            </div>
             <li class="space"></li>
-            <li class="member-title-item">V</li>
-            <li class="member-title-item">I</li>
-            <li class="member-title-item">Ê</li>
-            <li class="member-title-item">N</li>
+            <div class="warpper-menu-item">
+              <li class="member-title-item">V</li>
+              <li class="member-title-item">I</li>
+              <li class="member-title-item">Ê</li>
+              <li class="member-title-item">N</li>
+            </div>
           </ul>
           <div class="member-list">
             <div class="grid wide">
@@ -267,7 +280,7 @@
         </div>
 
         <div class="album" id="album">
-          <ul class="member-title-list">
+          <ul class="member-title-list flex-direction pdb-0">
             <li class="member-title-item">A</li>
             <li class="member-title-item">L</li>
             <li class="member-title-item">B</li>
@@ -275,9 +288,9 @@
             <li class="member-title-item">M</li>
           </ul>
           <div class="album-container">
-            <div class="album-container-item">
-              <h1 class="album-container-title" id="school"><span>Đi học</span> <img
-                  src="./assets/img/Icon/icon-school-title.png" alt="">
+            <div class="album-container-item" id="school">
+              <h1 class="album-container-title"><span>Đi học</span> <img src="./assets/img/Icon/icon-school-title.png"
+                  alt="">
               </h1>
               <div class="album-container-list">
                 <div class="grid wide">
@@ -529,9 +542,9 @@
             </div>
           </div>
           <div class="album-container">
-            <div class="album-container-item">
-              <h1 class="album-container-title mt-100" id="school"><span>Đá bóng</span> <img
-                  src="./assets/img/Icon/icon-soccer.png" alt="">
+            <div class="album-container-item" id="soccer">
+              <h1 class="album-container-title"><span>Đá bóng</span> <img src="./assets/img/Icon/icon-soccer.png"
+                  alt="">
               </h1>
               <div class="album-container-list">
                 <div class="grid wide">
@@ -556,9 +569,8 @@
             </div>
           </div>
           <div class="album-container">
-            <div class="album-container-item">
-              <h1 class="album-container-title mt-100" id="school"><span>Đi nhậu</span> <img
-                  src="./assets/img/Icon/icon-beer.png" alt="">
+            <div class="album-container-item" id="beer">
+              <h1 class="album-container-title"><span>Đi nhậu</span> <img src="./assets/img/Icon/icon-beer.png" alt="">
               </h1>
               <div class="album-container-list">
                 <div class="grid wide">
@@ -613,8 +625,8 @@
             </div>
           </div>
           <div class="album-container">
-            <div class="album-container-item">
-              <h1 class="album-container-title mt-100" id="school"><span>Khác</span>
+            <div class="album-container-item" id="khac">
+              <h1 class="album-container-title"><span>Khác</span>
               </h1>
               <div class="album-container-list">
                 <div class="grid wide">
@@ -654,8 +666,13 @@
       <!-- Overlay - Header -->
       <div class="overlay-nav"></div>
       <div class="overlay-nav-menu">
-        <img src="./assets/img/Icon/icon-close.png" alt="" class="nav-menu--close active">
-        <img src="./assets/img/Icon/icon-close-dark.png" alt="" class="nav-menu--close">
+        <div class="warrper-icon-menu">
+          <label for="light-dark" class=""><img src="./assets/img/Icon/icon-sun1.png"
+              class="icon-mobile sun active"></label>
+          <label for="light-dark" class=""><img src="./assets/img/Icon/icon-moon.png" class="icon-mobile moon"></label>
+          <img src="./assets/img/Icon/icon-close.png" alt="" class="nav-menu--close active">
+          <img src="./assets/img/Icon/icon-close-dark.png" alt="" class="nav-menu--close">
+        </div>
         <div class="nav-menu-logo">
           <img src="./assets/img/Icon/logo-light.png" alt="" class="header-logo-img active nav-logo-item">
           <img src="./assets/img/Icon/logo-dark.png" alt="" class="header-logo-img nav-logo-item">
@@ -666,7 +683,7 @@
           <li class="nav-menu-item"><a href="#member" class="nav-menu-link">thành viên</a></li>
           <li class="nav-menu-item"><a href="#album" class="nav-menu-link">album</a></li>
         </ul>
-        <div class="coppyright">© 2021-2022 by PeZoi</div>
+        <div class="coppyright active">© 2021-2022 by PeZoi</div>
       </div>
 
       <!-- Overlay - Album -->
@@ -674,30 +691,37 @@
       <label for="overlay-checkbox--cuong" class="overlay--cuong"></label>
       <div class="overlay-member--cuong overlay-member ">
         <label for="overlay-checkbox--cuong" class="overlay-close">
-          <ion-icon class="overlay-close-icon" name="close-outline"></ion-icon>
+          <img src="./assets/img/Icon/icon-close.png" alt="" class="overlay-close-icon active">
+          <img src="./assets/img/Icon/icon-close-dark.png" alt="" class="overlay-close-icon">
         </label>
         <div class="overlay-member-container">
           <div class="overlay-member-img">
             <img src="./assets/img/avatar-cuong.jpg" alt="">
           </div>
           <div class="overlay-member-info">
-            <p>• Họ và tên: Trần Thanh Kim Cương</p>
-            <p>• Tuổi: 18</p>
-            <p>• Ngày sinh: 02/12/2003</p>
-            <p>• Nơi sinh: Đồng Nai</p>
-            <p>• Cung hoàng đạo: Nhân Mã</p>
-            <p>• Sở thích: Đọc sách, nghe nhạc,...</p>
-            <p>• Ưu điểm: ,...</p>
-            <p>• Nhược điểm: ,...</p>
-            <p>• Ước mơ: Giáo Viên</p>
-            <p>• Telephone: <a href="tel:0921517773" class="member-phone">092 1517773</a></p>
+            <p>• <span class="key-info">Họ và tên</span>: Trần Thanh Kim Cương</p>
+            <p>• <span class="key-info">Tuổi</span>: 18</p>
+            <p>• <span class="key-info">Ngày sinh</span>: 02/12/2003</p>
+            <p>• <span class="key-info">Nơi sinh</span>: Đồng Nai</p>
+            <p>• <span class="key-info">Cung hoàng đạo</span>: Nhân Mã</p>
+            <p>• <span class="key-info">Sở thích</span>: Đọc sách, nghe nhạc,...</p>
+            <p>• <span class="key-info">Ưu điểm</span>: ,...</p>
+            <p>• <span class="key-info">Nhược điểm</span>: ,...</p>
+            <p>• <span class="key-info">Ước mơ</span>: Giáo Viên</p>
+            <p>• <span class="key-info">Telephone</span>: <a href="tel:0921517773" class="member-phone">092 1517773</a>
+            </p>
             <ul class="overlay-member-contact">
               <li class="contact-item">
                 <a href="https://www.facebook.com/kcuong7" class="contact-link">
                   <ion-icon class="contact-icon" name="logo-facebook"></ion-icon>
                 </a>
               </li>
+              <a href="./assets/img/avatar-cuong.jpg" data-fancybox="cuong" class="show-img">Xem avatar</a>
             </ul>
+            <div class="logo-member-info">
+              <img src="./assets/img/Icon/logo-light.png" alt="" class="header-logo-img active">
+              <img src="./assets/img/Icon/logo-dark.png" alt="" class="header-logo-img">
+            </div>
           </div>
         </div>
       </div>
@@ -706,31 +730,37 @@
       <label for="overlay-checkbox--bao" class="overlay--bao"></label>
       <div class="overlay-member--bao overlay-member">
         <label for="overlay-checkbox--bao" class="overlay-close">
-          <ion-icon class="overlay-close-icon" name="close-outline"></ion-icon>
+          <img src="./assets/img/Icon/icon-close.png" alt="" class="overlay-close-icon active">
+          <img src="./assets/img/Icon/icon-close-dark.png" alt="" class="overlay-close-icon">
         </label>
         <div class="overlay-member-container">
           <div class="overlay-member-img">
             <img src="./assets/img/avatar-bao.jpg" alt="">
           </div>
           <div class="overlay-member-info">
-            <p>• Họ và tên: Phạm Quốc Bảo</p>
-            <p>• Tuổi: 18</p>
-            <p>• Ngày sinh: 07/10/2003</p>
-            <p>• Nơi sinh: Đồng Nai</p>
-            <p>• Cung hoàng đạo: Thiên bình</p>
-            <p>• Sở thích: Chơi thể thao, đi du lịch,...</p>
-            <p>• Ưu điểm: ,...</p>
-            <p>• Nhược điểm: ,...</p>
-            <p>• Ước mơ: Chưa biết ...</p>
-            <p>• Telephone: <a href="tel:0901684436" class="member-phone">090 1684436</a></p>
+            <p>• <span class="key-info">Họ và tên</span>: Phạm Quốc Bảo</p>
+            <p>• <span class="key-info">Tuổi</span>: 18</p>
+            <p>• <span class="key-info">Ngày sinh</span>: 07/10/2003</p>
+            <p>• <span class="key-info">Nơi sinh</span>: Đồng Nai</p>
+            <p>• <span class="key-info">Cung hoàng đạo</span>: Thiên bình</p>
+            <p>• <span class="key-info">Sở thích</span>: Chơi thể thao, đi du lịch,...</p>
+            <p>• <span class="key-info">Ưu điểm</span>: ,...</p>
+            <p>• <span class="key-info">Nhược điểm</span>: ,...</p>
+            <p>• <span class="key-info">Ước mơ</span>: Chưa biết ...</p>
+            <p>• <span class="key-info">Telephone</span>: <a href="tel:0901684436" class="member-phone">090 1684436</a>
+            </p>
             <ul class="overlay-member-contact">
               <li class="contact-item">
                 <a href="https://www.facebook.com/profile.php?id=100016679175719" class="contact-link">
                   <ion-icon class="contact-icon" name="logo-facebook"></ion-icon>
                 </a>
-
               </li>
+              <a href="./assets/img/avatar-bao.jpg" data-fancybox="bao" class="show-img">Xem avartar</a>
             </ul>
+            <div class="logo-member-info">
+              <img src="./assets/img/Icon/logo-light.png" alt="" class="header-logo-img active">
+              <img src="./assets/img/Icon/logo-dark.png" alt="" class="header-logo-img">
+            </div>
           </div>
         </div>
       </div>
@@ -739,23 +769,25 @@
       <label for="overlay-checkbox--dong" class="overlay--dong"></label>
       <div class="overlay-member--dong overlay-member">
         <label for="overlay-checkbox--dong" class="overlay-close">
-          <ion-icon class="overlay-close-icon" name="close-outline"></ion-icon>
+          <img src="./assets/img/Icon/icon-close.png" alt="" class="overlay-close-icon active">
+          <img src="./assets/img/Icon/icon-close-dark.png" alt="" class="overlay-close-icon">
         </label>
         <div class="overlay-member-container">
           <div class="overlay-member-img">
             <img src="./assets/img/avatar-dong.jpg" alt="">
           </div>
           <div class="overlay-member-info">
-            <p>• Họ và tên: Phạm Ngọc Viễn Đông</p>
-            <p>• Tuổi: 18</p>
-            <p>• Ngày sinh: 05/02/2003</p>
-            <p>• Nơi sinh: TP.HCM</p>
-            <p>• Cung hoàng đạo: Bảo Bình</p>
-            <p>• Sở thích: Đá banh, bi-a, hát karaoke, code dạo,...</p>
-            <p>• Ưu điểm: ,...</p>
-            <p>• Nhược điểm: ,...</p>
-            <p>• Ước mơ: Trở thành một lập trình viên tài ba</p>
-            <p>• Telephone: <a href="tel:0813535314" class="member-phone">081 3535314</a></p>
+            <p>• <span class="key-info">Họ và tên</span>: Phạm Ngọc Viễn Đông</p>
+            <p>• <span class="key-info">Tuổi</span>: 18</p>
+            <p>• <span class="key-info">Ngày sinh</span>: 05/02/2003</p>
+            <p>• <span class="key-info">Nơi sinh</span>: TP.HCM</p>
+            <p>• <span class="key-info">Cung hoàng đạo</span>: Bảo Bình</p>
+            <p>• <span class="key-info">Sở thích</span>: Đá banh, bi-a, hát karaoke, code dạo,...</p>
+            <p>• <span class="key-info">Ưu điểm</span>: ,...</p>
+            <p>• <span class="key-info">Nhược điểm</span>: ,...</p>
+            <p>• <span class="key-info">Ước mơ</span>: Trở thành một lập trình viên tài ba</p>
+            <p>• <span class="key-info">Telephone</span>: <a href="tel:0813535314" class="member-phone">081 3535314</a>
+            </p>
             <ul class="overlay-member-contact">
               <li class="contact-item">
                 <a href="https://www.facebook.com/pezoiks1/" class="contact-link">
@@ -763,7 +795,12 @@
                 </a>
 
               </li>
+              <a href="./assets/img/avatar-dong.jpg" data-fancybox="dong" class="show-img">Xem avartar</a>
             </ul>
+            <div class="logo-member-info">
+              <img src="./assets/img/Icon/logo-light.png" alt="" class="header-logo-img active">
+              <img src="./assets/img/Icon/logo-dark.png" alt="" class="header-logo-img">
+            </div>
           </div>
         </div>
       </div>
@@ -773,23 +810,25 @@
     <label for="overlay-checkbox--hai" class="overlay--hai"></label>
     <div class="overlay-member--hai overlay-member">
       <label for="overlay-checkbox--hai" class="overlay-close">
-        <ion-icon class="overlay-close-icon" name="close-outline"></ion-icon>
+        <img src="./assets/img/Icon/icon-close.png" alt="" class="overlay-close-icon active">
+        <img src="./assets/img/Icon/icon-close-dark.png" alt="" class="overlay-close-icon">
       </label>
       <div class="overlay-member-container">
         <div class="overlay-member-img">
           <img src="./assets/img/avatar-hai.jpg" alt="">
         </div>
         <div class="overlay-member-info">
-          <p>• Họ và tên: Phạm Bá Hải</p>
-          <p>• Tuổi: 18</p>
-          <p>• Ngày sinh: 09/07/2003</p>
-          <p>• Nơi sinh: TP.HCM</p>
-          <p>• Cung hoàng đạo: Cự Giải</p>
-          <p>• Sở thích: Chơi thể thao, ăn uống, du lịch,...</p>
-          <p>• Ưu điểm: ,...</p>
-          <p>• Nhược điểm: ,...</p>
-          <p>• Ước mơ: Có cuộc sống hạnh phúc với gia đình</p>
-          <p>• Telephone: <a href="tel:0929733390" class="member-phone">092 9733390</a></p>
+          <p>• <span class="key-info">Họ và tên</span>: Phạm Bá Hải</p>
+          <p>• <span class="key-info">Tuổi</span>: 18</p>
+          <p>• <span class="key-info">Ngày sinh</span>: 09/07/2003</p>
+          <p>• <span class="key-info">Nơi sinh</span>: TP.HCM</p>
+          <p>• <span class="key-info">Cung hoàng đạo</span>: Cự Giải</p>
+          <p>• <span class="key-info">Sở thích</span>: Chơi thể thao, ăn uống, du lịch,...</p>
+          <p>• <span class="key-info">Ưu điểm</span>: ,...</p>
+          <p>• <span class="key-info">Nhược điểm</span>: ,...</p>
+          <p>• <span class="key-info">Ước mơ</span>: Có cuộc sống hạnh phúc với gia đình</p>
+          <p>• <span class="key-info">Telephone</span>: <a href="tel:0929733390" class="member-phone">092 9733390</a>
+          </p>
           <ul class="overlay-member-contact">
             <li class="contact-item">
               <a href="https://www.facebook.com/profile.php?id=100008581684299" class="contact-link">
@@ -797,7 +836,12 @@
               </a>
 
             </li>
+            <a href="./assets/img/avatar-hai.jpg" data-fancybox="hai" class="show-img">Xem avartar</a>
           </ul>
+          <div class="logo-member-info">
+            <img src="./assets/img/Icon/logo-light.png" alt="" class="header-logo-img active">
+            <img src="./assets/img/Icon/logo-dark.png" alt="" class="header-logo-img">
+          </div>
         </div>
       </div>
     </div>
@@ -806,23 +850,25 @@
     <label for="overlay-checkbox--huy" class="overlay--huy"></label>
     <div class="overlay-member--huy overlay-member">
       <label for="overlay-checkbox--huy" class="overlay-close">
-        <ion-icon class="overlay-close-icon" name="close-outline"></ion-icon>
+        <img src="./assets/img/Icon/icon-close.png" alt="" class="overlay-close-icon active">
+        <img src="./assets/img/Icon/icon-close-dark.png" alt="" class="overlay-close-icon">
       </label>
       <div class="overlay-member-container">
         <div class="overlay-member-img">
           <img src="./assets/img/avatar-huy.jpg" alt="">
         </div>
         <div class="overlay-member-info">
-          <p>• Họ và tên: Trần Đức Huy</p>
-          <p>• Tuổi: 18</p>
-          <p>• Ngày sinh: 11/02/2003</p>
-          <p>• Nơi sinh: Đồng Nai</p>
-          <p>• Cung hoàng đạo: Bảo Bình</p>
-          <p>• Sở thích: Thích ngắm chiếc xe hơi độ,...</p>
-          <p>• Ưu điểm: ,...</p>
-          <p>• Nhược điểm: ,...</p>
-          <p>• Ước mơ: Được sở hữu đc một chiếc xe hơi cơ bắp của Mỹ</p>
-          <p>• Telephone: <a href="tel:0933635525" class="member-phone">093 3635525</a></p>
+          <p>• <span class="key-info">Họ và tên</span>: Trần Đức Huy</p>
+          <p>• <span class="key-info">Tuổi</span>: 18</p>
+          <p>• <span class="key-info">Ngày sinh</span>: 11/02/2003</p>
+          <p>• <span class="key-info">Nơi sinh</span>: Đồng Nai</p>
+          <p>• <span class="key-info">Cung hoàng đạo</span>: Bảo Bình</p>
+          <p>• <span class="key-info">Sở thích</span>: Thích ngắm chiếc xe hơi độ,...</p>
+          <p>• <span class="key-info">Ưu điểm</span>: ,...</p>
+          <p>• <span class="key-info">Nhược điểm</span>: ,...</p>
+          <p>• <span class="key-info">Ước mơ</span>: Được sở hữu đc một chiếc xe hơi cơ bắp của Mỹ</p>
+          <p>• <span class="key-info">Telephone</span>: <a href="tel:0933635525" class="member-phone">093 3635525</a>
+          </p>
           <ul class="overlay-member-contact">
             <li class="contact-item">
               <a href="https://www.facebook.com/profile.php?id=100009505150754" class="contact-link">
@@ -830,7 +876,12 @@
               </a>
 
             </li>
+            <a href="./assets/img/avatar-huy.jpg" data-fancybox="huy" class="show-img">Xem avartar</a>
           </ul>
+          <div class="logo-member-info">
+            <img src="./assets/img/Icon/logo-light.png" alt="" class="header-logo-img active">
+            <img src="./assets/img/Icon/logo-dark.png" alt="" class="header-logo-img">
+          </div>
         </div>
       </div>
     </div>
@@ -839,23 +890,26 @@
     <label for="overlay-checkbox--phuc" class="overlay--phuc"></label>
     <div class="overlay-member--phuc overlay-member">
       <label for="overlay-checkbox--phuc" class="overlay-close">
-        <ion-icon class="overlay-close-icon" name="close-outline"></ion-icon>
+        <img src="./assets/img/Icon/icon-close.png" alt="" class="overlay-close-icon active">
+        <img src="./assets/img/Icon/icon-close-dark.png" alt="" class="overlay-close-icon">
       </label>
       <div class="overlay-member-container">
         <div class="overlay-member-img">
-          <img src="./assets/img/avatar-phuc.jpg" alt="">
+          <img src="./assets/img/avatar-phuc.jpg" alt="" class="member-img-responsive">
         </div>
         <div class="overlay-member-info member-info--phuc">
-          <p>• Họ và tên: Vũ Hoàng Phúc</p>
-          <p>• Tuổi: 18</p>
-          <p>• Ngày sinh: 19/07/2003</p>
-          <p>• Nơi sinh: Đồng Nai</p>
-          <p>• Cung hoàng đạo: Cự Giải</p>
-          <p>• Sở thích: Coi phim, chơi Game, chơi với người yêu 🙂,...</p>
-          <p>• Ưu điểm: ,...</p>
-          <p>• Nhược điểm: ,...</p>
-          <p>• Ước mơ: Ước mơ gì cũng được hạnh phúc là được</p>
-          <p>• Telephone: <a href="tel:0332327961" class="member-phone">033 2327961</a></p>
+          <p>• <span class="key-info">Họ và tên</span>: Vũ Hoàng Phúc</p>
+          <p>• <span class="key-info">Tuổi</span>: 18</p>
+          <p>• <span class="key-info">Ngày sinh</span>: 19/07/2003</p>
+          <p>• <span class="key-info">Nơi sinh</span>: Đồng Nai</p>
+          <p>• <span class="key-info">Cung hoàng đạo</span>: Cự Giải</p>
+          <p>• <span class="key-info">Sở thích</span>: Coi phim, chơi Game, chơi với người yêu 🙂,...</p>
+          <p>• <span class="key-info">Ưu điểm</span>: ,...</p>
+          <p>• <span class="key-info">Nhược điểm</span>: ,...</p>
+          <p>• <span class="key-info">Ước mơ</span>: <span class="key-info">Ước mơ</span> gì cũng được hạnh phúc là được
+          </p>
+          <p>• <span class="key-info">Telephone</span>: <a href="tel:0332327961" class="member-phone">033 2327961</a>
+          </p>
           <ul class="overlay-member-contact">
             <li class="contact-item">
               <a href="https://www.facebook.com/vuhoanggphuc" class="contact-link">
@@ -863,7 +917,12 @@
               </a>
 
             </li>
+            <a href="./assets/img/avatar-phuc.jpg" data-fancybox="phuc" class="show-img">Xem avartar</a>
           </ul>
+          <div class="logo-member-info">
+            <img src="./assets/img/Icon/logo-light.png" alt="" class="header-logo-img active">
+            <img src="./assets/img/Icon/logo-dark.png" alt="" class="header-logo-img">
+          </div>
         </div>
       </div>
     </div>
@@ -872,23 +931,25 @@
     <label for="overlay-checkbox--khanh" class="overlay--khanh"></label>
     <div class="overlay-member--khanh overlay-member ">
       <label for="overlay-checkbox--khanh" class="overlay-close">
-        <ion-icon class="overlay-close-icon" name="close-outline"></ion-icon>
+        <img src="./assets/img/Icon/icon-close.png" alt="" class="overlay-close-icon active">
+        <img src="./assets/img/Icon/icon-close-dark.png" alt="" class="overlay-close-icon">
       </label>
       <div class="overlay-member-container">
         <div class="overlay-member-img">
           <img src="./assets/img/avata-khanh.jpg" alt="">
         </div>
         <div class="overlay-member-info">
-          <p>• Họ và tên: Đinh Duy Khánh</p>
-          <p>• Tuổi: 18</p>
-          <p>• Ngày sinh: 13/10/2003</p>
-          <p>• Nơi sinh: TP.HCM</p>
-          <p>• Cung hoàng đạo: Thiên Bình</p>
-          <p>• Sở thích: Thích ngắm sao, cực quang,...</p>
-          <p>• Ưu điểm: ,...</p>
-          <p>• Nhược điểm: ,...</p>
-          <p>• Ước mơ: Được 1 lần đi qua Vatican</p>
-          <p>• Telephone: <a href="tel:0877198976" class="member-phone">087 7198976</a></p>
+          <p>• <span class="key-info">Họ và tên</span>: Đinh Duy Khánh</p>
+          <p>• <span class="key-info">Tuổi</span>: 18</p>
+          <p>• <span class="key-info">Ngày sinh</span>: 13/10/2003</p>
+          <p>• <span class="key-info">Nơi sinh</span>: TP.HCM</p>
+          <p>• <span class="key-info">Cung hoàng đạo</span>: Thiên Bình</p>
+          <p>• <span class="key-info">Sở thích</span>: Thích ngắm sao, cực quang,...</p>
+          <p>• <span class="key-info">Ưu điểm</span>: ,...</p>
+          <p>• <span class="key-info">Nhược điểm</span>: ,...</p>
+          <p>• <span class="key-info">Ước mơ</span>: Được 1 lần đi qua Vatican</p>
+          <p>• <span class="key-info">Telephone</span>: <a href="tel:0877198976" class="member-phone">087 7198976</a>
+          </p>
           <ul class="overlay-member-contact">
             <li class="contact-item">
               <a href="https://www.facebook.com/profile.php?id=100035486242643" class="contact-link">
@@ -896,7 +957,12 @@
               </a>
 
             </li>
+            <a href="./assets/img/avata-khanh.jpg" data-fancybox="khanh" class="show-img">Xem avartar</a>
           </ul>
+          <div class="logo-member-info">
+            <img src="./assets/img/Icon/logo-light.png" alt="" class="header-logo-img active">
+            <img src="./assets/img/Icon/logo-dark.png" alt="" class="header-logo-img">
+          </div>
         </div>
       </div>
     </div>
@@ -905,23 +971,25 @@
     <label for="overlay-checkbox--son" class="overlay--son"></label>
     <div class="overlay-member--son overlay-member">
       <label for="overlay-checkbox--son" class="overlay-close">
-        <ion-icon class="overlay-close-icon" name="close-outline"></ion-icon>
+        <img src="./assets/img/Icon/icon-close.png" alt="" class="overlay-close-icon active">
+        <img src="./assets/img/Icon/icon-close-dark.png" alt="" class="overlay-close-icon">
       </label>
       <div class="overlay-member-container">
         <div class="overlay-member-img">
           <img src="./assets/img/avatar-son.jpg" alt="">
         </div>
         <div class="overlay-member-info">
-          <p>• Họ và tên: Phạm Văn Sơn</p>
-          <p>• Tuổi: 18</p>
-          <p>• Ngày sinh: 06/10/2003</p>
-          <p>• Nơi sinh: Đồng Nai</p>
-          <p>• Cung hoàng đạo: Thiên Bình</p>
-          <p>• Sở thích: Nghe nhạc, chơi game, đá banh, ngắm gái,...</p>
-          <p>• Ưu điểm: ,...</p>
-          <p>• Nhược điểm: ,...</p>
-          <p>• Ước mơ: Nhà đầu tư tài ba</p>
-          <p>• Telephone: <a href="tel:0399120059" class="member-phone">039 9120059</a></p>
+          <p>• <span class="key-info">Họ và tên</span>: Phạm Văn Sơn</p>
+          <p>• <span class="key-info">Tuổi</span>: 18</p>
+          <p>• <span class="key-info">Ngày sinh</span>: 06/10/2003</p>
+          <p>• <span class="key-info">Nơi sinh</span>: Đồng Nai</p>
+          <p>• <span class="key-info">Cung hoàng đạo</span>: Thiên Bình</p>
+          <p>• <span class="key-info">Sở thích</span>: Nghe nhạc, chơi game, đá banh, ngắm gái,...</p>
+          <p>• <span class="key-info">Ưu điểm</span>: ,...</p>
+          <p>• <span class="key-info">Nhược điểm</span>: ,...</p>
+          <p>• <span class="key-info">Ước mơ</span>: Nhà đầu tư tài ba</p>
+          <p>• <span class="key-info">Telephone</span>: <a href="tel:0399120059" class="member-phone">039 9120059</a>
+          </p>
           <ul class="overlay-member-contact">
             <li class="contact-item">
               <a href="https://www.facebook.com/profile.php?id=100034722502172" class="contact-link">
@@ -929,7 +997,12 @@
               </a>
 
             </li>
+            <a href="./assets/img/avatar-son.jpg" data-fancybox="son" class="show-img">Xem avartar</a>
           </ul>
+          <div class="logo-member-info">
+            <img src="./assets/img/Icon/logo-light.png" alt="" class="header-logo-img active">
+            <img src="./assets/img/Icon/logo-dark.png" alt="" class="header-logo-img">
+          </div>
         </div>
       </div>
     </div>
@@ -938,23 +1011,25 @@
     <label for="overlay-checkbox--tien" class="overlay--tien"></label>
     <div class="overlay-member--tien overlay-member">
       <label for="overlay-checkbox--tien" class="overlay-close">
-        <ion-icon class="overlay-close-icon" name="close-outline"></ion-icon>
+        <img src="./assets/img/Icon/icon-close.png" alt="" class="overlay-close-icon active">
+        <img src="./assets/img/Icon/icon-close-dark.png" alt="" class="overlay-close-icon">
       </label>
       <div class="overlay-member-container">
         <div class="overlay-member-img">
           <img src="./assets/img/avatar-tien.jpg" alt="">
         </div>
         <div class="overlay-member-info">
-          <p>• Họ và tên: Nguyễn Quách Đức Tiến</p>
-          <p>• Tuổi: 18</p>
-          <p>• Ngày sinh: 06/01/2003</p>
-          <p>• Nơi sinh: Đồng Nai</p>
-          <p>• Cung hoàng đạo: Ma Kết</p>
-          <p>• Sở thích: Chơi game, thể thao, âm nhạc,...</p>
-          <p>• Ưu điểm: ,...</p>
-          <p>• Nhược điểm: ,...</p>
-          <p>• Ước mơ: Lập trình viên code game</p>
-          <p>• Telephone: <a href="tel:0386775157" class="member-phone">038 6775157</a></p>
+          <p>• <span class="key-info">Họ và tên</span>: Nguyễn Quách Đức Tiến</p>
+          <p>• <span class="key-info">Tuổi</span>: 18</p>
+          <p>• <span class="key-info">Ngày sinh</span>: 06/01/2003</p>
+          <p>• <span class="key-info">Nơi sinh</span>: Đồng Nai</p>
+          <p>• <span class="key-info">Cung hoàng đạo</span>: Ma Kết</p>
+          <p>• <span class="key-info">Sở thích</span>: Chơi game, thể thao, âm nhạc,...</p>
+          <p>• <span class="key-info">Ưu điểm</span>: ,...</p>
+          <p>• <span class="key-info">Nhược điểm</span>: ,...</p>
+          <p>• <span class="key-info">Ước mơ</span>: Lập trình viên code game</p>
+          <p>• <span class="key-info">Telephone</span>: <a href="tel:0386775157" class="member-phone">038 6775157</a>
+          </p>
           <ul class="overlay-member-contact">
             <li class="contact-item">
               <a href="https://www.facebook.com/profile.php?id=100015633701577" class="contact-link">
@@ -962,7 +1037,12 @@
               </a>
 
             </li>
+            <a href="./assets/img/avatar-tien.jpg" data-fancybox="tien" class="show-img">Xem avartar</a>
           </ul>
+          <div class="logo-member-info">
+            <img src="./assets/img/Icon/logo-light.png" alt="" class="header-logo-img active">
+            <img src="./assets/img/Icon/logo-dark.png" alt="" class="header-logo-img">
+          </div>
         </div>
       </div>
     </div>
@@ -971,23 +1051,26 @@
     <label for="overlay-checkbox--thinh" class="overlay--thinh"></label>
     <div class="overlay-member--thinh overlay-member ">
       <label for="overlay-checkbox--thinh" class="overlay-close">
-        <ion-icon class="overlay-close-icon" name="close-outline"></ion-icon>
+        <img src="./assets/img/Icon/icon-close.png" alt="" class="overlay-close-icon active">
+        <img src="./assets/img/Icon/icon-close-dark.png" alt="" class="overlay-close-icon">
       </label>
       <div class="overlay-member-container">
         <div class="overlay-member-img">
           <img src="./assets/img/avatar-thinh.jpg" alt="">
         </div>
         <div class="overlay-member-info">
-          <p>• Họ và tên: Nguyễn Đức Thịnh</p>
-          <p>• Tuổi: 18</p>
-          <p>• Ngày sinh: 18/07/2003</p>
-          <p>• Nơi sinh: Đồng Nai</p>
-          <p>• Cung hoàng đạo: Cự Giải</p>
-          <p>• Sở thích: Xem phim , nghe nhạc ,ăn uống, chơi game , bi-a,...</p>
-          <p>• Ưu điểm: Tốt bụng, quan tâm đến bạn bè, sẵn sàng cho bạn mượn tiền mà không cần trả,...</p>
-          <p>• Nhược điểm: Hay khoe của, xàm lìn,...</p>
-          <p>• Ước mơ: Chủ cyber lớn nhất Đồng Nai</p>
-          <p>• Telephone: <a href="tel:070 3754477" class="member-phone">070 3754477</a></p>
+          <p>• <span class="key-info">Họ và tên</span>: Nguyễn Đức Thịnh</p>
+          <p>• <span class="key-info">Tuổi</span>: 18</p>
+          <p>• <span class="key-info">Ngày sinh</span>: 18/07/2003</p>
+          <p>• <span class="key-info">Nơi sinh</span>: Đồng Nai</p>
+          <p>• <span class="key-info">Cung hoàng đạo</span>: Cự Giải</p>
+          <p>• <span class="key-info">Sở thích</span>: Xem phim , nghe nhạc ,ăn uống, chơi game , bi-a,...</p>
+          <p>• <span class="key-info">Ưu điểm</span>: Tốt bụng, quan tâm đến bạn bè, sẵn sàng cho bạn mượn tiền mà không
+            cần trả,...</p>
+          <p>• <span class="key-info">Nhược điểm</span>: Hay khoe của, xàm lìn,...</p>
+          <p>• <span class="key-info">Ước mơ</span>: Chủ cyber lớn nhất Đồng Nai</p>
+          <p>• <span class="key-info">Telephone</span>: <a href="tel:070 3754477" class="member-phone">070 3754477</a>
+          </p>
           <ul class="overlay-member-contact">
             <li class="contact-item">
               <a href="https://www.facebook.com/profile.php?id=100032337155333" class="contact-link">
@@ -995,7 +1078,12 @@
               </a>
 
             </li>
+            <a href="./assets/img/avatar-thinh.jpg" data-fancybox="thinh" class="show-img">Xem avartar</a>
           </ul>
+          <div class="logo-member-info">
+            <img src="./assets/img/Icon/logo-light.png" alt="" class="header-logo-img active">
+            <img src="./assets/img/Icon/logo-dark.png" alt="" class="header-logo-img">
+          </div>
         </div>
       </div>
     </div>

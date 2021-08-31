@@ -101,3 +101,36 @@
   left: 0;
 }
 
+/* Mobile & Tablet  <= 1023px */
+@media screen and (max-width: 63.9375em) {
+
+}
+/* Mobile: Width < 740px */
+@media screen and (max-width: 46.1875em) {
+  .member-title-list {
+    padding: 50px 0 25px ;
+    flex-direction: column;
+    align-items: center;
+  }
+  .space {
+    display: none;
+  }
+  .member-title-item {
+    margin: 10px 4px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+  }
+
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+
+}
+
+/* PC: width >= 1024px */
+@media screen and (min-width: 64em) {
+
+}
+

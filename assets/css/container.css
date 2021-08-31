@@ -9,27 +9,36 @@
   display: block;
   width: 100%;
   position: absolute;
-  top:80px;
+  top: 0px;
   text-align: center;
 }
 
 .container-title{
-  font-size: 64px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 90px;
+  font-weight: 500;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+  text-shadow: 0px 0px 10px rgb(0 0 0 / 60%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px 35px;
 }
 .container-link {
   display: inline-block;
-  margin-top: 32px;
   text-decoration: none;
   padding: 18px 64px;
   font-size: 32px;
   background-color: black;
-  border-radius: 20px;
+  border-radius: 5px;
   color: #fff;
   transition: all linear 0.2s;
+  position: absolute;
+  top: 220px;
+  left: 35px;
 }
+
 
 .container-link:hover {
   background-color: #fff;
@@ -42,13 +51,37 @@
 }
 /* Mobile: Width < 740px */
 @media screen and (max-width: 46.1875em) {
-
+  .container {
+    padding-top: 85%;
+    margin-top: 60px;
+  }
+  .container-title {
+    font-size: 48px;
+    padding: 5px 30px;
+    align-items: center;
+  }
+  .container-link {
+    display: none;
+  }
+  .nav-menu {
+    right: 28px;
+  }
 }
 
 /* Tablet: width >= 740px and width < 1024px */
 @media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
   .container {
     padding-top: 85%;
+  }
+  .container-title {
+    font-size: 70px;
+  }
+  .container-link {
+    right: 35px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: unset;
   }
 }
 
