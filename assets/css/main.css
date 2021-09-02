@@ -33,7 +33,6 @@ body {
   scroll-behavior: smooth;
   background-color: #fff;
   transition: all var(--transition-move) 0.4s 0.1s;
-  scroll-margin-top: 1000px;
 }
 body.dark {
   background-color: var(--dark-color);
