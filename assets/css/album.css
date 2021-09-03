@@ -90,6 +90,9 @@
   .mb-27 {
     margin-bottom: 27px;
   }
+  .bonus-album {
+    margin-top: 90px;
+  }
 }
 /* Mobile: Width < 740px */
 @media screen and (max-width: 46.1875em) {
@@ -107,6 +110,7 @@
   }
   .album-container-item {
     position: relative;
+    padding-top: 65px;
   }
   .album-container-title {
     position: absolute;
