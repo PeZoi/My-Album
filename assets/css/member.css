@@ -50,6 +50,7 @@
   margin-bottom: 24px;
   display: block;
   box-shadow: 0px 0px 8px;
+
 }
 
 .member-img.dark {
@@ -105,6 +106,9 @@
 @media screen and (max-width: 63.9375em) {
   .member-img:hover .member-name{
     display: none;
+  }
+  .member-img {
+    -webkit-tap-highlight-color: transparent;
   }
 }
 /* Mobile: Width < 740px */

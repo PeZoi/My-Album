@@ -144,6 +144,8 @@
   .intro-img-item {
     width: 100%;
     height: auto;
+    box-shadow: 0 0 10px rgb(0 0 0 / 80%);
+    padding: 10px;
   }
   .intro-info {
     margin: 32px 0 0;
@@ -151,9 +153,9 @@
   .intro-img-list:hover span {
     display: none;
   }
-  .intro-img-item {
-    box-shadow: 0 0 10px rgb(0 0 0 / 80%);
-    padding: 10px;
+  .info-content-by,
+  .intro-item-link {
+    -webkit-tap-highlight-color: transparent;
   }
 }
 /* Mobile: Width < 740px */

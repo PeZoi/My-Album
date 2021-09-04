@@ -54,6 +54,7 @@ body.dark {
   right: 0;
   cursor: pointer;
   z-index: 1;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .overlay-close:hover {
@@ -121,6 +122,7 @@ body.dark {
 
 .member-phone {
   font-weight: 500;
+  -webkit-tap-highlight-color: transparent;
   /* text-decoration: none; */
 }
 
@@ -128,6 +130,7 @@ body.dark {
   display: inline-block;
   margin-top: 8px;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 .contact-item:hover .contact-facebook {
   display: block;
@@ -167,6 +170,7 @@ body.dark {
 .contact-link {
   text-decoration: none;
   color: black;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .show-img {
@@ -209,6 +213,14 @@ body.dark {
     max-width: 365px;
     padding-right: 24px;
   }
+  .wow {
+    visibility: visible !important;
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+  }
 }
 /* Mobile: Width < 740px */
 @media screen and (max-width: 46.1875em) {
@@ -224,6 +236,7 @@ body.dark {
   .show-img {
   display: block;
   text-align: center;
+  -webkit-tap-highlight-color: transparent;
   }
   .overlay-member-info p {
     padding-right: 0;

@@ -28,6 +28,9 @@
   display: none;
   transition: all var(--transition-move) 0.4s 0.1s;
 }
+.header-logo-link {
+  -webkit-tap-highlight-color: transparent;
+}
 .header-logo-img.active{
   display: block;
 }
@@ -331,6 +334,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-tap-highlight-color: transparent;
 }
 .coppyright {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

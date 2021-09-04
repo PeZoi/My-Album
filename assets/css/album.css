@@ -26,6 +26,7 @@
 
 .album-container-title span {
   margin-right: 16px;
+
 }
 
 .album-container-title img {
@@ -47,6 +48,9 @@
 .album-item {
   width:  100%;
   border-radius: 10px;
+}
+.album-item-link {
+  -webkit-tap-highlight-color: transparent;
 }
 .item-khac,
 .item-beer {
@@ -93,6 +97,16 @@
   .bonus-album {
     margin-top: 90px;
   }
+  .school-item-bonus:hover {
+    opacity: 1;
+  }
+  .album-container-title span {
+    width: 100%;
+    text-align: center;
+  }
+  .school-item-bonus {
+    -webkit-tap-highlight-color: transparent;
+  }
 }
 /* Mobile: Width < 740px */
 @media screen and (max-width: 46.1875em) {
@@ -116,6 +130,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    width: 200px;
   }
   .rps-title {
     width: 235px;
