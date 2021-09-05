@@ -7,6 +7,17 @@
   --transition-move: cubic-bezier(.25, -0.59, 0.82, 1.66);
   --dark-color: #111;
 }
+::-webkit-scrollbar {
+  width: 12px;
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--topic-color);
+}
 .pdb-0 {
   padding-bottom: 0;
 }
@@ -86,6 +97,7 @@ body.dark {
 
 .overlay-member-img{
   margin: 0 50px;
+  margin-right: 20px;
 }
 
 .overlay-member-img img {
@@ -207,7 +219,7 @@ body.dark {
   .overlay-member-info {
     letter-spacing: 0;
     padding: 75px 10px 0 0;
-    font-size: 21px;
+    font-size: 19px;
   }
   .overlay-member-info p {
     max-width: 365px;
