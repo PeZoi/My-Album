@@ -36,3 +36,24 @@ for (let i = 0; i < menuLink.length; i++) {
   })
 }
 
+// Open Page School
+const btnOpen = document.querySelector('.school-item-bonus')
+const pageSchool = document.querySelector('.main-page')
+const body = document.querySelector('.warrper')
+btnOpen.addEventListener('click', function () {
+  pageSchool.style.transform = 'translateY(0)';
+  pageSchool.style.overflow = 'unset';
+  body.style.overflow = 'hidden';
+})
+
+// Close Page School
+const btnClose = document.querySelectorAll('.page-close-img')
+
+for (let i = 0; i < btnClose.length; i++) {
+  btnClose[i].addEventListener('click', function () {
+    pageSchool.style.transform = 'translateY(-100%)'
+    pageSchool.style.overflow = 'hidden';
+    body.style.overflow = 'unset';
+  })
+}
+

@@ -78,6 +78,7 @@
   transition: all linear 0.2s;
   width: 200px;
   text-align: center;
+  cursor: pointer;
 }
 .school-item-bonus:hover {
   opacity: 0.8;

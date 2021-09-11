@@ -136,6 +136,22 @@ for (let i = 0; i < overlayMember.length; i++) {
   })
 }
 
+//Background Page School
+const backgroundPage = document.querySelector('.main-page')
+const backgroundClose = document.querySelector('.page-close')
+const btnClosePage = document.querySelectorAll('.page-close-img')
+for (let i = 0; i < btnClosePage.length; i++) {
+  checkbox_toggle.addEventListener('change', function () {
+    btnClosePage[i].classList.toggle('active')
+    btnClosePage[i].classList.toggle('dark')
+  })
+}
+checkbox_toggle.addEventListener('change', function () {
+  backgroundPage.classList.toggle('dark')
+  backgroundClose.classList.toggle('dark')
+  btnClosePage[1].style.border = '2px solid #000!important'
+})
+
 //Switch Logo Close Overlay Member && Text
 const logoCloseMember = document.querySelectorAll('.overlay-close-icon')
 for (let i = 0; i < logoCloseMember.length; i++) {
