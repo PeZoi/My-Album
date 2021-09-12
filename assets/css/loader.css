@@ -17,3 +17,19 @@
   width: 80px;
   height: 80px;
 }
+.load-title {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 50px;
+  animation: rightToLeft linear 8s infinite;
+}
+@keyframes rightToLeft {
+  from {
+    transform: translateX(-20%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
