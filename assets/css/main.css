@@ -290,7 +290,6 @@ body.dark {
   }
   .overlay-member-info p {
     min-width: 365px;
-    padding-right: 24px;
   }
   .wow {
     visibility: visible !important;
@@ -322,7 +321,7 @@ body.dark {
   -webkit-tap-highlight-color: transparent;
   }
   .overlay-member-info p {
-    padding-right: 0;
+    padding-right: 11px;
   }
 }
 
